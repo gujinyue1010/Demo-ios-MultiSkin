@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1349A741979002000659D8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1349A731979002000659D8E /* Foundation.framework */; };
+		F1349A761979002000659D8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1349A751979002000659D8E /* CoreGraphics.framework */; };
+		F1349A781979002000659D8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1349A771979002000659D8E /* UIKit.framework */; };
+		F1349A7E1979002000659D8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1349A7C1979002000659D8E /* InfoPlist.strings */; };
+		F1349A801979002000659D8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1349A7F1979002000659D8E /* main.m */; };
+		F1349A841979002000659D8E /* AFKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1349A831979002000659D8E /* AFKAppDelegate.m */; };
+		F1349A871979002000659D8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1349A851979002000659D8E /* Main.storyboard */; };
+		F1349A8A1979002000659D8E /* AFKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1349A891979002000659D8E /* AFKViewController.m */; };
+		F1349A8C1979002000659D8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1349A8B1979002000659D8E /* Images.xcassets */; };
+		F1349AAA197901DB00659D8E /* AFKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1349AA9197901DB00659D8E /* AFKButton.m */; };
+		F1349AAD197901EC00659D8E /* AFKView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1349AAC197901EC00659D8E /* AFKView.m */; };
+		F1349AAF1979022500659D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1349AAE1979022500659D8E /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1349A701979002000659D8E /* Demo-ios-MultiSkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-ios-MultiSkin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1349A731979002000659D8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1349A751979002000659D8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1349A771979002000659D8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1349A7B1979002000659D8E /* Demo-ios-MultiSkin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo-ios-MultiSkin-Info.plist"; sourceTree = "<group>"; };
+		F1349A7D1979002000659D8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1349A7F1979002000659D8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1349A811979002000659D8E /* Demo-ios-MultiSkin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-ios-MultiSkin-Prefix.pch"; sourceTree = "<group>"; };
+		F1349A821979002000659D8E /* AFKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFKAppDelegate.h; sourceTree = "<group>"; };
+		F1349A831979002000659D8E /* AFKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFKAppDelegate.m; sourceTree = "<group>"; };
+		F1349A861979002000659D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1349A881979002000659D8E /* AFKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFKViewController.h; sourceTree = "<group>"; };
+		F1349A891979002000659D8E /* AFKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFKViewController.m; sourceTree = "<group>"; };
+		F1349A8B1979002000659D8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1349A921979002000659D8E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F1349AA8197901DB00659D8E /* AFKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFKButton.h; sourceTree = "<group>"; };
+		F1349AA9197901DB00659D8E /* AFKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFKButton.m; sourceTree = "<group>"; };
+		F1349AAB197901EC00659D8E /* AFKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFKView.h; sourceTree = "<group>"; };
+		F1349AAC197901EC00659D8E /* AFKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFKView.m; sourceTree = "<group>"; };
+		F1349AAE1979022500659D8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F1349AB019790D4000659D8E /* StyleSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StyleSetting.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1349A6D1979002000659D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1349AAF1979022500659D8E /* QuartzCore.framework in Frameworks */,
+				F1349A761979002000659D8E /* CoreGraphics.framework in Frameworks */,
+				F1349A781979002000659D8E /* UIKit.framework in Frameworks */,
+				F1349A741979002000659D8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1349A671979002000659D8E = {
+			isa = PBXGroup;
+			children = (
+				F1349A791979002000659D8E /* Demo-ios-MultiSkin */,
+				F1349A721979002000659D8E /* Frameworks */,
+				F1349A711979002000659D8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1349A711979002000659D8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1349A701979002000659D8E /* Demo-ios-MultiSkin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1349A721979002000659D8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1349AAE1979022500659D8E /* QuartzCore.framework */,
+				F1349A731979002000659D8E /* Foundation.framework */,
+				F1349A751979002000659D8E /* CoreGraphics.framework */,
+				F1349A771979002000659D8E /* UIKit.framework */,
+				F1349A921979002000659D8E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1349A791979002000659D8E /* Demo-ios-MultiSkin */ = {
+			isa = PBXGroup;
+			children = (
+				F1349A821979002000659D8E /* AFKAppDelegate.h */,
+				F1349A831979002000659D8E /* AFKAppDelegate.m */,
+				F1349A851979002000659D8E /* Main.storyboard */,
+				F1349A881979002000659D8E /* AFKViewController.h */,
+				F1349A891979002000659D8E /* AFKViewController.m */,
+				F1349AA8197901DB00659D8E /* AFKButton.h */,
+				F1349AA9197901DB00659D8E /* AFKButton.m */,
+				F1349AAB197901EC00659D8E /* AFKView.h */,
+				F1349AAC197901EC00659D8E /* AFKView.m */,
+				F1349AB019790D4000659D8E /* StyleSetting.h */,
+				F1349A8B1979002000659D8E /* Images.xcassets */,
+				F1349A7A1979002000659D8E /* Supporting Files */,
+			);
+			path = "Demo-ios-MultiSkin";
+			sourceTree = "<group>";
+		};
+		F1349A7A1979002000659D8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1349A7B1979002000659D8E /* Demo-ios-MultiSkin-Info.plist */,
+				F1349A7C1979002000659D8E /* InfoPlist.strings */,
+				F1349A7F1979002000659D8E /* main.m */,
+				F1349A811979002000659D8E /* Demo-ios-MultiSkin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1349A6F1979002000659D8E /* Demo-ios-MultiSkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1349AA21979002000659D8E /* Build configuration list for PBXNativeTarget "Demo-ios-MultiSkin" */;
+			buildPhases = (
+				F1349A6C1979002000659D8E /* Sources */,
+				F1349A6D1979002000659D8E /* Frameworks */,
+				F1349A6E1979002000659D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo-ios-MultiSkin";
+			productName = "Demo-ios-MultiSkin";
+			productReference = F1349A701979002000659D8E /* Demo-ios-MultiSkin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1349A681979002000659D8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AFK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = non6;
+			};
+			buildConfigurationList = F1349A6B1979002000659D8E /* Build configuration list for PBXProject "Demo-ios-MultiSkin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1349A671979002000659D8E;
+			productRefGroup = F1349A711979002000659D8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1349A6F1979002000659D8E /* Demo-ios-MultiSkin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1349A6E1979002000659D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1349A8C1979002000659D8E /* Images.xcassets in Resources */,
+				F1349A7E1979002000659D8E /* InfoPlist.strings in Resources */,
+				F1349A871979002000659D8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1349A6C1979002000659D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1349AAA197901DB00659D8E /* AFKButton.m in Sources */,
+				F1349A801979002000659D8E /* main.m in Sources */,
+				F1349A8A1979002000659D8E /* AFKViewController.m in Sources */,
+				F1349AAD197901EC00659D8E /* AFKView.m in Sources */,
+				F1349A841979002000659D8E /* AFKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1349A7C1979002000659D8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1349A7D1979002000659D8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1349A851979002000659D8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1349A861979002000659D8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1349AA01979002000659D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1349AA11979002000659D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1349AA31979002000659D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo-ios-MultiSkin/Demo-ios-MultiSkin-Prefix.pch";
+				INFOPLIST_FILE = "Demo-ios-MultiSkin/Demo-ios-MultiSkin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1349AA41979002000659D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo-ios-MultiSkin/Demo-ios-MultiSkin-Prefix.pch";
+				INFOPLIST_FILE = "Demo-ios-MultiSkin/Demo-ios-MultiSkin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1349A6B1979002000659D8E /* Build configuration list for PBXProject "Demo-ios-MultiSkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1349AA01979002000659D8E /* Debug */,
+				F1349AA11979002000659D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1349AA21979002000659D8E /* Build configuration list for PBXNativeTarget "Demo-ios-MultiSkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1349AA31979002000659D8E /* Debug */,
+				F1349AA41979002000659D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1349A681979002000659D8E /* Project object */;
+}
